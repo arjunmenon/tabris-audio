@@ -14,6 +14,11 @@
   <plugin name="cordova-plugin-file-transfer" />
   <plugin name="cordova-plugin-network-information" />    
   <plugin name="Service-Discovery-DLNA-SSDP" spec="https://github.com/scottdermott/cordova-plugin-discovery.git" />
+
+  <plugin name="https://github.com/bilalrazamoon/cordova-plugin-music.git" />
+  <plugin name="https://github.com/juicyapp/cordova-plugins-justmusicplayer.git" />
+  <plugin name="https://github.com/milworm/cordova-plugin-audio-library.git" />
+  
   <plugin name="cordova.plugins.diagnostic" />
 
 
