@@ -20,7 +20,29 @@
   <plugin name="https://github.com/milworm/cordova-plugin-audio-library.git" />
   
   <plugin name="cordova.plugins.diagnostic" />
+  
+  <plugin name="cordova-plugin-device" version="*" />
+  <plugin name="cordova-plugin-geolocation" version="2.1.0" />
+  <plugin name="cordova-custom-config" version="*" />
 
+  <platform name="android">
+  	<config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.BLUETOOTH" />
+            <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+            <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+            <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+
+            <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+            <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+            <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+            <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+
+    </config-file>
+</platform>
 
   <preference name="EnableDeveloperConsole" value="$IS_DEBUG" />
 </widget>
