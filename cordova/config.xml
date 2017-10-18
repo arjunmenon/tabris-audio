@@ -17,7 +17,7 @@
 
   <plugin name="https://github.com/bilalrazamoon/cordova-plugin-music.git" />
   <plugin name="https://github.com/juicyapp/cordova-plugins-justmusicplayer.git" />
-  <plugin name="https://github.com/milworm/cordova-plugin-audio-library.git" />
+  <plugin name="https://github.com/arjunmenon/cordova-plugin-audio-library.git" />
   
   <plugin name="cordova.plugins.diagnostic" />
 
